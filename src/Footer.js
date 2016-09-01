@@ -19,10 +19,10 @@ function Footer(props) {
                                     <a href="https://www.facebook.com/gavin.chiang.98" className="btn-social btn-outline"> <Fa name={"facebook fa-lg"} /> </a>
                                 </li>
                                 <li>
-                                    <a href="https://github.com/GavinChiang" className="btn-social btn-outline"> <Fa name={"linkedin fa-lg"} /> </a>
+                                    <a href="https://github.com/GavinChiang" className="btn-social btn-outline"> <Fa name={"github fa-lg"} /> </a>
                                 </li>
                                 <li>
-                                    <a href="https://www.linkedin.com/in/chen-hsuan-gavin-chiang-186469109" className="btn-social btn-outline"> <Fa name={"github fa-lg"} /> </a>
+                                    <a href="https://www.linkedin.com/in/chen-hsuan-gavin-chiang-186469109" className="btn-social btn-outline"> <Fa name={"linkedin fa-lg"} /> </a>
                                 </li>
                             </ul>
                         </div>

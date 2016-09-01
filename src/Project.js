@@ -3,6 +3,8 @@ var Fa = require('./Fa.js')
 
 function Project(props) {
 
+    var pic = require('./img/' + props.picname + '.png')
+
     return (
         <div className="col-sm-4 portfolio-item">
             <a href={"#portfolioModal" + props.modal_id} className="portfolio-link" data-toggle="modal">
@@ -11,7 +13,7 @@ function Project(props) {
                         <Fa name={"search-plus fa-3x"}/>
                     </div>
                 </div>
-                <img src={"img/portfolio/"+ props.picname +".png"} className="img-responsive" alt=""/>
+                <img src={pic} className="img-responsive" alt=""/>
             </a>
         </div>
     );

@@ -3,8 +3,8 @@ var Fa = require('./Fa.js');
 
 function Modal(props) {
 
-	return (
-		<div className="portfolio-modal modal fade" id={"portfolioModal"  + props.modal_id} tabindex="-1" role="dialog" aria-hidden="true">
+    return (
+        <div className="portfolio-modal modal fade" id={"portfolioModal"  + props.modal_id} tabindex="-1" role="dialog" aria-hidden="true">
         <div className="modal-content">
             <div className="close-modal" data-dismiss="modal">
                 <div className="lr">
@@ -41,7 +41,7 @@ function Modal(props) {
             </div>
         </div>
     </div>
-	);
+    );
 };
 
 module.exports = Modal;
