@@ -1,4 +1,5 @@
 var React = require('react');
+var profile = require('./profile.png')
 
 function Header(props) {
 
@@ -7,7 +8,7 @@ function Header(props) {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-12">
-            <img className="img-responsive" src="img/profile.png" alt=""/>
+    <img className="img-responsive" src={profile} alt=""/>
                         <div className="intro-text">
                             <span className="name">Gavin Chiang</span>
                             <hr className="star-light"/>
