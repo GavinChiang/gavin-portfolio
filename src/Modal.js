@@ -3,6 +3,8 @@ var Fa = require('./Fa.js');
 
 function Modal(props) {
 
+    var pic = require('./img/' + props.picname + '.png')
+
     return (
         <div className="portfolio-modal modal fade" id={"portfolioModal"  + props.modal_id} tabindex="-1" role="dialog" aria-hidden="true">
         <div className="modal-content">
@@ -18,7 +20,7 @@ function Modal(props) {
                         <div className="modal-body">
                             <h2>{props.title}</h2>
                             <hr className="star-primary"/>
-                            <img src={"img/portfolio/"+ props.picname +".png"} className="img-responsive img-centered" alt=""/>
+                            <img src={pic} className="img-responsive img-centered" alt=""/>
 	                            <ul>
 		                            <p><li> {props.description1} </li></p>
 		                            <p><li> {props.description2} </li></p>
