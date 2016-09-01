@@ -3,9 +3,13 @@ var Project = require('./Project.js')
 var Modal = require('./Modal.js')
 var ProjectDetail = require('./ProjectDetail.js')
 
-var content = $.map(ProjectDetail, function(item, index) {
-	return [item];
-});
+// var content = $.map(ProjectDetail, function(item, index) {
+// 	return [item];
+// });
+var content = []
+for (var key in ProjectDetail) {
+	content.push(ProjectDetail[key])
+}
 
 var Portfolio = React.createClass({
 
