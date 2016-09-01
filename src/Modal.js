@@ -6,7 +6,7 @@ function Modal(props) {
     var pic = require('./img/' + props.picname + '.png')
 
     return (
-        <div className="portfolio-modal modal fade" id={"portfolioModal"  + props.modal_id} tabindex="-1" role="dialog" aria-hidden="true">
+        <div className="portfolio-modal modal fade" id={"portfolioModal"  + props.modal_id} tabIndex="-1" role="dialog" aria-hidden="true">
         <div className="modal-content">
             <div className="close-modal" data-dismiss="modal">
                 <div className="lr">
