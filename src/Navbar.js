@@ -29,7 +29,7 @@ function Navbar(props) {
                             <a href="#footer">Contact</a>
                         </li>
                         <li>
-                        	<a hred="#" >Resume </a>
+                        	<a href="https://drive.google.com/file/d/0B6YUF2Bu2EYmYzhOVk0yT2t2Y2M/view?usp=sharing" >Resume </a>
                         </li>
                     </ul>
                 </div>

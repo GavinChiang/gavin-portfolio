@@ -22,18 +22,19 @@ function Modal(props) {
                             <hr className="star-primary"/>
                             <img src={pic} className="img-responsive img-centered" alt=""/>
 	                            <ul>
-		                            <p><li> {props.description1} </li></p>
+                                    <p><li> {props.description1} </li></p>
 		                            <p><li> {props.description2} </li></p>
 	                            </ul>
+                                {props.demo ?  (<p><a href={props.demo} >demo </a> </p>) : null}
                             <ul className="list-inline item-details">
-                                <li>Link:
-                                    <strong> <a href={props.gitlink}>GitHub</a>  </strong>
+                                <li>
+                                    <strong> <a href={props.gitlink}>Check on GitHub</a>  </strong>
                                 </li>
-                                <li>Language:
+                                <li>
                                     <strong> {props.language} </strong>
                                 </li>
-                                <li>Service:
-                                    <strong><a href="http://startbootstrap.com">Web Development</a>  </strong>
+                                <li>
+                                    <strong> {props.type} </strong>
                                 </li>
                             </ul>
                             <button type="button" className="btn btn-default" data-dismiss="modal"> <Fa name={"times"}/>Close</button>

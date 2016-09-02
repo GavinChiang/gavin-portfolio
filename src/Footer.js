@@ -24,6 +24,9 @@ function Footer(props) {
                                 <li>
                                     <a href="https://www.linkedin.com/in/chen-hsuan-gavin-chiang-186469109" className="btn-social btn-outline"> <Fa name={"linkedin fa-lg"} /> </a>
                                 </li>
+                                <li>
+                                    <a href="https://drive.google.com/file/d/0B6YUF2Bu2EYmYzhOVk0yT2t2Y2M/view" className="btn-social btn-outline"> <Fa name={"file-text-o fa-lg"} /> </a>
+                                </li>
                             </ul>
                         </div>
                         <div className="footer-col col-md-4">

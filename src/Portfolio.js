@@ -14,7 +14,7 @@ var Portfolio = React.createClass({
 		return (
 			<div> 
 				{content.map(function(item, index) {
-	            	return (<Modal modal_id={index} picname={item.picname} title={item.title} gitlink={item.gitlink}
+	            	return (<Modal modal_id={index} picname={item.picname} title={item.title} gitlink={item.gitlink} type={item.type} demo={item.demo ? item.demo : null}
 	            				   language={item.language} description1={item.description1} description2={item.description2} />)} )}
 				<section id="portfolio">
 			        <div className="container">
