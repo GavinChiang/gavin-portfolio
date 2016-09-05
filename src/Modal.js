@@ -1,5 +1,6 @@
 var React = require('react');
 var Fa = require('./Fa.js');
+var PropTypes = React.PropTypes;
 
 function Modal(props) {
 
@@ -46,5 +47,20 @@ function Modal(props) {
     </div>
     );
 };
+
+Modal.PropTypes = {
+    modal_id: PropTypes.number.isRequired,
+    picname: PropTypes.string.isRequired,
+    title: PropTypes.string.isRequired,
+    gitlink: PropTypes.string,
+    type: PropTypes.string.isRequired,
+    demo: PropTypes.string,
+    language: PropTypes.string.isRequired,
+    description1: PropTypes.string.isRequired,
+    description2: PropTypes.string.isRequired,
+
+}
+
+
 
 module.exports = Modal;

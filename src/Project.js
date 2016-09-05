@@ -1,5 +1,6 @@
 var React = require('react');
 var Fa = require('./Fa.js')
+var PropTypes = React.PropTypes;
 
 function Project(props) {
 
@@ -18,5 +19,10 @@ function Project(props) {
         </div>
     );
 };
+
+Project.PropTypes = {
+    picname: PropTypes.string.isRequired,
+    modal_id: PropTypes.number.isRequired,
+}
 
 module.exports = Project;
