@@ -1,5 +1,5 @@
 var React = require('react');
-var profile = require('./img/profile.png')
+var profile = require('./img/adv.jpg')
 
 function Header(props) {
 
